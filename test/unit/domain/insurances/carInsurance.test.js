@@ -1,4 +1,3 @@
-const { expect } = require('chai');
 const {CarInsurance} = require('../../../../src/domain/insurances');
 const {
   FullCoverage
