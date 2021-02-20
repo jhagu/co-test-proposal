@@ -4,7 +4,7 @@
   "description": "",
   "main": "src/index.js",
   "scripts": {
-    "after-30-days": "node src/index.js",
+    "after-30-days": "node index.js",
     "test": "nyc --reporter=text mocha --exit --recursive --require ./scripts/mocha-bootload.js"
   },
   "author": "Juan Agu",
